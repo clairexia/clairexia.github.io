@@ -1,0 +1,189 @@
+
+	 *{margin:0;padding:0;font-size:14px;}
+	 #header{height:60px;background:#000;color:#FFF;}
+	 a{color:#333;text-decoration:none}
+	.nav{list-style:none; height:60px;margin-left:100px;}
+	.nav li{float:left;posiyion:relative;}
+	.nav li a{color:#FFF;display:block; height:60px;text-align:center; line-height:60px; width:80px; margin-left:1px;}
+	.nav li a:hover{background:#333;}
+	.subNav{position:absolute; top:60px;width:110px; height:0; overflow:hidden}
+	.subNav li a{ background:#333;}
+	.subNav li a:hover{ background:#666;}
+    .head{height:60px;line-height:60px;font-size:14px;padding-right:15px;position:absolute;right:10px;top:0px;}
+	 #login{cursor: pointer;}
+	#mainbody{width:90%;/*border:1px solid #0C0;*/margin:20px auto;}
+	 .showbox{border-top:1px solid #DDD;clear:both;height:380px;width:100%;margin:10px 0px;overflow:hidden;}
+	 .sidebar{margin-left: 40px; border:1px solid #DDD;width:100px;/*background:#F30;*/float:left; padding-bottom:10px;}
+	 
+	/* .side2{height:100px;}
+	 .side3{height:100px;}
+	 .side4{height:100px;}*/
+
+	 .sideh1{ background-image: url("image/波浪线1.png");background-repeat: no-repeat;background-position: center ;
+           text-align:center;height:30px;line-height:30px;margin:10px 0px;/*border-bottom:1px solid #80FFFF;margin-top:20px;*/}
+	 .sidenav{list-style:none;margin-top:10px;border-top: 1px solid #DDD;}
+	 .sidenav li{
+	 	   background-image: url("image/yinghua.png");
+           background-repeat: no-repeat;
+           background-position: center left ;
+	 	}
+     .sidenav li>a{display:block; text-indent:25px; height:40px; 
+	              line-height:40px; width:100px; margin-bottom:2px;}
+     .sidenav li>a:hover{  font-weight: bold; color: #e4393c}
+    
+     .submenu{
+            display:none;
+            width: 715px;
+            position: absolute;
+            left: 200px;
+            top: 480px;
+            border: 1px solid #DDD;
+            z-index: 4;
+            background: white;
+            box-shadow: 0 0 8px #DDD;
+            -moz-box-shadow: 0 0 8px #DDD;
+            -webkit-box-shadow: 0 0 8px #DDD;
+     }
+      .sidenav .lihover .submenu{
+     	display:block;
+     }
+      .sidenav .lihover{
+     	 border: 1px solid #DDD;
+     	 box-shadow: 0 0 8px #DDD;
+         -moz-box-shadow: 0 0 8px #DDD;
+         -webkit-box-shadow: 0 0 8px #DDD;
+     }
+     .sidenav .lihover span /*白色小方框*/
+        {
+            background: white;
+            display: inline-block;
+            z-index: 20;
+            width: 10px;
+            height: 42px;
+            float: right;
+            position: relative;
+            bottom:42px;
+        }
+     .leftdiv
+        {
+            float: left;
+            width: 490px;
+            margin: 5px;
+        }
+      .rightdiv
+        {
+            float: left;
+            width: 200px;
+            margin: 5px;
+        }
+       
+     .leftdiv dl
+        {
+            display: block;
+            border-bottom: 1px solid #EEE;
+            padding-bottom: 6px;
+            overflow: hidden;
+        }
+      .leftdiv dl dt
+        {
+            display: block;
+            float: left;
+            width: 60px;
+            text-align: right;
+            height: 22px;
+            line-height: 22px;
+            padding-right: 6px;
+        }
+        
+      .leftdiv dl dt a
+        {
+            color: #e4393c;
+            font-weight: bold;
+            text-decoration: underline;
+            font-size: 10pt;
+        }
+      .leftdiv dl dd
+        {
+            display: block;
+            overflow: hidden;
+        }
+      .leftdiv dl dd a
+        {
+            display: block;
+            float: left;
+            border-left: 1px solid #CCC;
+            color: #737373;
+            font-size: 9pt;
+            padding: 0 8px;
+            height: 14px;
+            line-height: 14px;
+            margin: 4px 0;
+        }
+        
+      .rightdiv dl dd
+        {
+            margin: 3px 0;
+        }
+        
+      .rightdiv dl dt
+        {
+            color: #e4393c;
+            font-weight: bold;
+            font-size: 10pt;
+        }
+        
+      .rightdiv dl dd a
+        {
+            font-size: 9pt;
+            color: #737373;
+            line-height: 22px;
+        }
+      .rightdiv dl dd a:hover
+        {
+            color: #737373;
+            font-weight: normal;
+        }
+
+	 .content{/*height:400px;*//*background:red;*/margin-left:150px;overflow:hidden;}
+	 
+     #login_box{width:350px;height:175px;background:#eee;
+		 border:1px solid #ccc;position:absolute;left:50%;top:50%;
+		 margin-left:-150px;margin-top:-75px;display:none;  
+		 -moz-border-radius: 10px;-webkit-border-radius: 10px; border-radius: 10px;
+		 -moz-box-shadow: 0 0 8px #000;-webkit-box-shadow: 0 0 8px #000;box-shadow: 0 0 8px #000;}
+	 .loginimg{width:100px;height:100px;overflow:hidden;float:left;margin:20px 0 20px 15px;background: red;}
+	 .loginimg img{-moz-border-radius: 10px;-webkit-border-radius: 10px; border-radius: 10px;}	 
+     #login_box p{height:24px;line-height:24px;border-bottom:1px solid #ccc;font-size:14px;padding:4px 0 0 15px;font-weight:bold;}
+     #login_box #close{cursor:pointer;width:16px;height:16px;position:absolute;right:6px;top:8px;}
+	 #myname,#pass{color:#CCC;}
+	 .allinputs{width:215px;float:right;margin:20px 15px 20px 5px;}
+	 .sign-in{text-align:center;padding-bottom:15px;}
+	 .twobtn{padding-left: 70px;}
+	 #submit,#reset{height:25px;width:50px;line-height:20px;background:#FFC;}
+	 #submit{margin-right:10px;}
+     #reset{margin-left:10px;}
+	 
+	 .tab1{margin-left: 10px;}
+	 .tab1 .title{
+	 	    border-bottom:4px solid black;
+	 	    height:50px;line-height:50px;
+	 	    text-indent:170px;
+	 	    background-image: url("image/danmei1.png");
+	 	    background-repeat: no-repeat;
+	 	    background-position: left bottom;
+	 	}
+	 .tab1 .title span{padding:10px;margin:0px 20px ;position:relative;bottom:-10px;}
+	 .list1{float:left;margin:20px 0px;}
+	 .list1 .comic_list{width:940px;overflow:hidden;}
+	 .list1 .comic_list li{float:left;position:relative;width:208px;list-style: none;border:1px solid #DDD;margin:0px 15px 10px 10px;} 
+	 .list1 .comic_list .comic_name{position:absolute;top:10px;left:110px;font-size: 14px;height:18px;line-height:18px;overflow: hidden; }
+	 .list1 .comic_list span{position:absolute;top:35px;left:110px;color:#ccc;font-size: 12px;height:48px;line-height:16px;overflow: hidden; }
+     .list1 .comic_list li a:hover{color:red;text-decoration: underline;}
+     #scroll_list{float:right;width:110px;height:132px;margin-top:20px;overflow: hidden;}
+      #scroll_list li{overflow: hidden;}
+     #scroll_list li a{display: block;}
+     #scroll_list li a:hover{color:red;}
+     /*.list1 #scroll_list2{float:right;width:120px;height:20px;background-color: green;overflow: hidden;}*/
+     #scroll_list .rightlist li{height:16px;line-height:16px;margin:0 0 5px 0;list-style:;border-bottom: 1px dashed #DDD;}
+	 #footer{clear:both;width:100%;height:70px;margin-top:10px;border-top:1px solid #CCC;line-height:70px;text-align:center;}
+	
