@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style type=text/css>
+ #wrap{margin:0;padding:0;font-size: 14px;}
+ #loginmes{height:40px;border:1px solid red;}
+ #nav{position:relative;height:150px;border:1px solid red;}
+ #mainnav{height:50px;width:100%;position:absolute;bottom:0px;border:1px solid red;}
+ #mainbody{width:90%;margin:10px auto;background-color:red;}
+ #showbox{width:100%;height:300px;background-color: green;}
+ #message{clear:both;width:100%;height:100px;background-color: green;}
+ #sidebar{float:left;width:100px;margin:10px 0;border:1px solid red;}
+ #content{float:left;margin:10px 0 10px 10px;border:1px solid red;}
+ #footer{clear:both;width:100%;height:150px;border:1px solid red;}
+</style>
+
+<script type=text/javascript>
+
+</script>
+</head>
+
+<body>
+<div id="wrap">
+    <div id=header>
+         <div id="loginmes"> dshajdhka</div>
+         <div id="nav">dhjksdlds 
+             <div id="mainnav">
+             	dgshag
+             </div>
+         </div>
+    </div>
+    <div id=mainbody>
+       <div id="showbox"></div>
+       <div id="sidebar">dhsadjhka</div>
+       <div id="content">dgjhagjah</div>
+       <div id="message"></div>
+    </div>
+    <div id=footer>版权</div> 
+</div>
+</body>
+</html>
