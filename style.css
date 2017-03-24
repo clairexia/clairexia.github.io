@@ -187,7 +187,7 @@
      #scroll_list .rightlist li{height:16px;line-height:16px;margin:0 0 5px 0;list-style:;border-bottom: 1px dashed #DDD;}
 	 #footer{clear:both;position:relative;width:100%;min-height:70px;margin-top:10px;padding-bottom:9px;border-top:1px solid #CCC;
 		 text-align:center;font-size:12px;}
-.weixin{float:left;height:80px;width:80px;background-image:url("");background-position:center;background-repeat:no-repeat;}
+.weixin{float:left;height:80px;width:80px;background-image:url("image/weixin.png");background-position:center;background-repeat:no-repeat;}
 .f-link{float:right;height:50px;width:160px;margin-top:2em;margin-right:3em;line-height:50px;font-weight:bold;
        font-family:"幼圆"；}
 .icon-weibo{float:left;height:50px;left;width:30%;display:block;margin:0px 2px 0px 4px;background-color:pink;}
