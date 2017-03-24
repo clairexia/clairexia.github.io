@@ -189,7 +189,7 @@
 		 text-align:center;font-size:12px;}
 .f-link{float:right;border:1px solid #ccc;height:50px;width:160px;margin-top:2em;margin-right:3em;}
 .f-link a{float:left;height:50px;left;width:30%;display:block;margin:0px 1px;background-color:yellow;}
-.icon-weibo:before {content: "\f18a";}
-.icon-email:before {content: "\f18a";}
-.icon-github:before {content: "\f003";}
+.icon-weibo{}
+.icon-email{}
+.icon-github{}
 #footer p{clear:both;width:100%;}
