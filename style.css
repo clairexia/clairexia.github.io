@@ -155,7 +155,7 @@
 	 .loginimg img{-moz-border-radius: 10px;-webkit-border-radius: 10px; border-radius: 10px;}	 
      #login_box p{height:24px;line-height:24px;border-bottom:1px solid #ccc;font-size:14px;padding:4px 0 0 15px;font-weight:bold;}
      #login_box #close{cursor:pointer;width:16px;height:16px;position:absolute;right:6px;top:8px;}
-	 #myname,#pass{color:#CCC;}
+	 #myname,#pass{color:#CCC;width:100px;}
 	 .allinputs{width:215px;float:right;margin:20px 15px 20px 5px;}
 	 .sign-in{text-align:center;padding-bottom:15px;}
 	 .twobtn{padding-left: 70px;}
