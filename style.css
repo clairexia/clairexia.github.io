@@ -186,5 +186,5 @@
      /*.list1 #scroll_list2{float:right;width:120px;height:20px;background-color: green;overflow: hidden;}*/
      #scroll_list .rightlist li{height:16px;line-height:16px;margin:0 0 5px 0;list-style:;border-bottom: 1px dashed #DDD;}
 	 #footer{clear:both;position:relative;width:100%;min-height:70px;margin-top:10px;padding-bottom:9px;border-top:1px solid #CCC;
-		 line-height:70px;text-align:center;font-size:12px;}
+		 text-align:center;font-size:12px;}
 	
