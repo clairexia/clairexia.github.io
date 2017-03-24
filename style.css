@@ -188,7 +188,7 @@
 	 #footer{clear:both;position:relative;width:100%;min-height:70px;margin-top:10px;padding-bottom:9px;border-top:1px solid #CCC;
 		 text-align:center;font-size:12px;}
 .f-link{float:right;border:1px solid #ccc;height:50px;width:160px;margin-top:2em;margin-right:3em;}
-.f-link a{float:left;height:50px;left;width:30%;display:block;background-color:yellow;}
+.f-link a{float:left;height:50px;left;width:30%;display:block;margin:0px 1px;background-color:yellow;}
 .icon-weibo:before {content: "\f18a";}
 .icon-email:before {content: "\f18a";}
 .icon-github:before {content: "\f003";}
