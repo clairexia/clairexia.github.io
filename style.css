@@ -187,5 +187,5 @@
      #scroll_list .rightlist li{height:16px;line-height:16px;margin:0 0 5px 0;list-style:;border-bottom: 1px dashed #DDD;}
 	 #footer{clear:both;position:relative;width:100%;min-height:70px;margin-top:10px;padding-bottom:9px;border-top:1px solid #CCC;
 		 text-align:center;font-size:12px;}
-.f-link{position:absolute;right:2em;top:2em;border:1px solid #ccc;height:50px;width:160px;}
-#footer p{clear:both;}
+.f-link{float:right;border:1px solid #ccc;height:50px;width:160px;margin-top:3em;margin-right:3em;}
+#footer p{clear:both;width:100%;}
