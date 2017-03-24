@@ -190,8 +190,9 @@
 .weixin{float:left;border:1px solid #ccc;height:80px;width:80px;margin-top:2em;margin-left:3em;
 	background-image:url("image/weixin.png");background-size:80px 80px;background-position:center;background-repeat:no-repeat;}
 .f-link{float:right;height:50px;width:160px;margin-top:2em;margin-right:3em;line-height:50px;font-weight:bold;
-       font-family:"幼圆"；}
-.icon-weibo{float:left;height:50px;left;width:30%;display:block;margin:0px 2px 0px 4px;background-color:pink;}
+       font-family:"隶书"；}
+.icon-weibo{float:left;height:50px;left;width:30%;display:block;margin:0px 2px 0px 4px;background-color:pink;
+            -moz-border-radius: 6px;-webkit-border-radius: 6px;-ms-border-radius: 6px;}
 .icon-email{float:left;height:50px;left;width:30%;display:block;margin:0px 2px;background-color:mistyrose;}
 .icon-github{float:left;height:50px;left;width:30%;display:block;margin:0px 4px 0px 2px;background-color:lavenderblush;}
 #footer p{clear:both;width:100%;}
