@@ -1,6 +1,7 @@
 
 	 *{margin:0;padding:0;font-size:14px;}
-	 #header{height:60px;background:#000;color:#FFF;}
+         #wrap{min-width:1215px;}
+	 #header{position:relative;height:60px;background:#000;color:#FFF;}
 	 a{color:#333;text-decoration:none}
 	.nav{list-style:none; height:60px;margin-left:100px;}
 	.nav li{float:left;position:relative;}
@@ -11,7 +12,7 @@
 	.subNav li a:hover{ background:#666;}
     .head{height:60px;line-height:60px;font-size:14px;padding-right:15px;position:absolute;right:10px;top:0px;}
 	 #login{cursor: pointer;}
-	#mainbody{width:90%;/*border:1px solid #0C0;*/margin:20px auto;}
+	#mainbody{width:90%;min-width:1214px;margin:20px auto;}
 	 .showbox{border-top:1px solid #DDD;clear:both;height:380px;width:100%;margin:10px 0px;overflow:hidden;}
 	 .sidebar{margin-left: 40px; border:1px solid #DDD;width:100px;/*background:#F30;*/float:left; padding-bottom:10px;}
 	 
