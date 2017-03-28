@@ -14,7 +14,7 @@
         #show{float:left;margin-right:15px;color:blanchedalmond;}	 
         #login{cursor: pointer;}
 	#mainbody{width:80%;min-width:1214px;margin:20px auto;}
-         #music{float:right;}
+         .music{float:right;}
 	 .showbox{border-top:1px solid #DDD;clear:both;height:380px;width:1215px;margin:0px auto;overflow:hidden;}
 	 .sidebar{margin-left: 30px; border:1px solid #DDD;width:100px;/*background:#F30;*/float:left; padding-bottom:10px;}
 	 
