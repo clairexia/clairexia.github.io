@@ -1,4 +1,5 @@
  window.onload=function(){
+	 showTime();
       	var login_btn=document.getElementById('login'),
       	    login_box=document.getElementById('login_box'),
       	    close=document.getElementById('close');
@@ -65,7 +66,7 @@
             }
 		}	
 	 }
-   showTime();
+  
   }
 function checkTime(i){  //补位处理
      if(i<10){
