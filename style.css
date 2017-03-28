@@ -11,7 +11,7 @@
 	.subNav li a{ background:#333;}
 	.subNav li a:hover{ background:#666;}
         .head{height:60px;line-height:60px;font-size:14px;padding-right:15px;position:absolute;right:10px;top:0px;}
-        #show{float:left;}	 
+        #show{float:left;padding-right:10px;}	 
         #login{cursor: pointer;}
 	#mainbody{width:80%;min-width:1214px;margin:20px auto;}
 	 .showbox{border-top:1px solid #DDD;clear:both;height:380px;width:1215px;margin:0px auto;overflow:hidden;}
@@ -37,7 +37,7 @@
             display:none;
             width: 715px;
             position: absolute;
-            left: 200px;
+            left: 300px;
             top: 480px;
             border: 1px solid #DDD;
             z-index: 4;
