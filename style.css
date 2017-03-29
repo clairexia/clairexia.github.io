@@ -14,7 +14,7 @@
         #show{float:left;margin-right:15px;color:blanchedalmond;}	 
         #login{cursor: pointer;}
 	#mainbody{width:80%;min-width:1214px;margin:20px auto;}
-         .music{float:right;width:300px;overflow:hidden;
+         .music{float:right;width:300px;height:30px;overflow:hidden;
 		 transition:width 2s;
                  -moz-transition:width 2s; /* Firefox 4 */
                  -webkit-transition:width 2s; /* Safari and Chrome */
