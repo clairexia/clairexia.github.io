@@ -15,10 +15,10 @@
         #login{cursor: pointer;}
 	#mainbody{width:80%;min-width:1214px;margin:20px auto;}
          .music{float:right;width:300px;height:30px;overflow:hidden;
-		 transition:width 2s;
-                 -moz-transition:width 2s; /* Firefox 4 */
-                 -webkit-transition:width 2s; /* Safari and Chrome */
-                 -o-transition:width 2s; /* Opera */}
+		 transition:width 1s;
+                 -moz-transition:width 1s; /* Firefox 4 */
+                 -webkit-transition:width 1s; /* Safari and Chrome */
+                 -o-transition:width 1s; /* Opera */}
          .music:hover{width:507px;}
          .music marquee{color:grey;height:30px;width:200px;line-height:30px;}
 	 .showbox{border-top:1px solid #DDD;clear:both;height:380px;width:1215px;margin:0px auto;overflow:hidden;}
