@@ -152,7 +152,7 @@
             color: #737373;
             font-weight: normal;
         }
-     .sidesearch{width:100px;margin:10px 0px;}
+     .sidesearch{width:100%;margin:10px 0px;}
 	 .content{/*height:400px;*//*background:red;*/margin-left:150px;overflow:hidden;}
 	 
      #login_box{width:350px;height:175px;background:#eee;
