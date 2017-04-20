@@ -155,6 +155,12 @@
      .sidesearch{width:100px;margin:10px 0px;}
      .s-combobox-input{width:90px;margin:5px auto;}
      .s-combobox-button{margin:0px 0px 5px 30px;}
+     .s-combobox-button:before{
+         content: "\f105";
+         font-family: FontAwesome;
+         color:darkblue;
+         font-size: 20px;
+         font-weight: bold;}
 	 .content{/*height:400px;*//*background:red;*/margin-left:150px;overflow:hidden;}
 	 
      #login_box{width:350px;height:175px;background:#eee;
