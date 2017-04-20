@@ -22,7 +22,7 @@
          .music:hover{width:507px;}
          .music marquee{color:grey;height:30px;width:200px;line-height:30px;}
 	 .showbox{border-top:1px solid #DDD;clear:both;height:380px;width:1215px;margin:0px auto;overflow:hidden;}
-	 .sidebar{margin-left: 30px; border:1px solid #DDD;width:100px;/*background:#F30;*/float:left; padding-bottom:10px;}
+	 .sidebar{margin-left: 10px; border:1px solid #DDD;width:120px;/*background:#F30;*/float:left; padding-bottom:10px;}
 	 
 	/* .side2{height:100px;}
 	 .side3{height:100px;}
@@ -152,11 +152,11 @@
             color: #737373;
             font-weight: normal;
         }
-     .sidesearch{width:100px;margin:10px 0px;}
-     .s-combobox-input{width:90px;margin:5px auto;}
-     .s-combobox-button{margin:0px 0px 5px 30px;}
+     .sidesearch{width:100%;margin:10px 0px;}
+     .s-combobox-input{width:100%;margin:5px auto;}
+     .s-combobox-button{margin:0px 0px 5px 48px;}
      .s-combobox-button:before{
-         content: "\f105";
+         content: "\f002";
          font-family: FontAwesome;
          color:darkblue;
          font-size: 20px;
