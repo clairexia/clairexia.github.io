@@ -215,17 +215,17 @@
     #mainbody{width:100%;min-width:600px;} 
     #footer{min-width:600px;} 
     .tab{margin-left:0px;margin-right:0px;}
-    .head,.music{clear:both;color:black;}
+    .head,.music{clear:both;float:none;color:black;}
 }
 @media screen and (max-width: 600px){
     #wrap{min-width: 300px;} 
-    #mainbody{width:100%;min-width:300px;} 
+    #mainbody,{width:100%;min-width:300px;} 
     #footer{min-width:300px;}
     .nav{margin:0;} 
     .weixin,.mid-footer,.f-link{clear:both;position:static;float:none;} 
     .sidebar{width:100%;min-width:300px;float:left;}
     .sidesearch{clear: both;}
-    .head,.music{clear:both;color:black;}
+    .head,.music{clear:both;float:none;color:black;}
     .content,.tab,.tab1,.tab2{margin:0;clear:both;float:none;width:100%;min-width:300px;}
 
 }
