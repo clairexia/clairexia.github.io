@@ -48,7 +48,7 @@
             display:none;
             width: 715px;
             position: absolute;
-            left: 200px;
+            left: 180px;
             top: 480px;
             border: 1px solid #DDD;
             z-index: 4;
@@ -189,9 +189,6 @@
 	 	    border-bottom:4px solid black;
 	 	    height:50px;line-height:50px;
 	 	    text-indent:170px;
-	 	    background-image: url("image/danmei1.png");
-	 	    background-repeat: no-repeat;
-	 	    background-position: left bottom;
 	 	}
 	 .tab .title span{padding:10px;margin:0px 20px ;position:relative;bottom:-10px;}
 	 .list1{float:left;margin:20px 0px;}
