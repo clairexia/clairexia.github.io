@@ -1,6 +1,8 @@
 
 	 *{margin:0;padding:0;font-size:14px;}
          #wrap{min-width:1215px;}
+     .clearfix{zoom:1;} 
+     .clearfix :after {clear:both;content:'.';display:block;width: 0;height: 0;visibility:hidden;}    
 	 #header{position:relative;height:60px;background:#000;color:#FFF;}
 	 a{color:#333;text-decoration:none}
 	.nav{list-style:none; height:60px;margin-left:100px;}
@@ -182,8 +184,8 @@
 	 #submit{margin-right:10px;}
      #reset{margin-left:10px;}
 	 
-	 .tab1{margin-left: 10px;}
-	 .tab1 .title{
+	 .tab{margin-left: 10px;}
+	 .tab .title{
 	 	    border-bottom:4px solid black;
 	 	    height:50px;line-height:50px;
 	 	    text-indent:170px;
@@ -191,7 +193,7 @@
 	 	    background-repeat: no-repeat;
 	 	    background-position: left bottom;
 	 	}
-	 .tab1 .title span{padding:10px;margin:0px 20px ;position:relative;bottom:-10px;}
+	 .tab .title span{padding:10px;margin:0px 20px ;position:relative;bottom:-10px;}
 	 .list1{float:left;margin:20px 0px;}
 	 .list1 .comic_list{width:940px;overflow:hidden;}
 	 .list1 .comic_list li{float:left;position:relative;width:208px;list-style: none;border:1px solid #DDD;margin:0px 15px 10px 10px;} 
@@ -204,7 +206,7 @@
      #scroll_list li a:hover{color:red;}
      /*.list1 #scroll_list2{float:right;width:120px;height:20px;background-color: green;overflow: hidden;}*/
      #scroll_list .rightlist li{height:16px;line-height:16px;margin:0 0 5px 0;list-style:;border-bottom: 1px dashed #DDD;}
-	 #footer{clear:both;position:relative;width:100%;min-height:70px;margin-top:10px;padding-bottom:9px;border-top:1px solid #CCC;
+     #footer{clear:both;position:relative;width:100%;min-height:70px;margin-top:10px;padding-bottom:9px;border-top:1px solid #CCC;
 		 text-align:center;font-size:12px;}
 .weixin{float:left;border:1px solid #ccc;height:80px;width:80px;margin-top:2em;margin-left:6em;
 	background-image:url("image/weixin.png");background-size:80px 80px;background-position:center;background-repeat:no-repeat;}
