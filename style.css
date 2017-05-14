@@ -212,14 +212,14 @@
 #footer{min-width:960px;} 
 @media screen and (min-width: 600px) and (max-width: 960px){
     #wrap{min-width: 600px;} 
-    #mainbody{min-width:600px;} 
+    #mainbody{width:100%;min-width:600px;} 
     #footer{min-width:600px;} 
     .tab{margin-left:0px;margin-right:0px;}
     .head,.music{clear:both;}
 }
 @media screen and (max-width: 600px){
-    #wrap{min-width: 600px;} 
-    #mainbody{min-width:300px;} 
+    #wrap{min-width: 300px;} 
+    #mainbody{width:100%;min-width:300px;} 
     #footer{min-width:300px;} 
     .weixin,.mid-footer,.f-link{clear:both;} 
     .sidebar{width:100%;min-width:300px;float:left;}
