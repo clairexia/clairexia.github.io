@@ -21,7 +21,7 @@
                  -o-transition:width 1s; /* Opera */}
          .music:hover{width:507px;}
          .music marquee{color:grey;height:30px;width:200px;line-height:30px;}
-	 .showbox{border-top:1px solid #DDD;clear:both;height:380px;width:1215px;margin:0px auto;overflow:hidden;}
+	 .showbox{border-top:1px solid #DDD;clear:both;height:380px;width:1215px;margin:10px auto;overflow:hidden;}
 	 .sidebar{margin-left: 10px; border:1px solid #DDD;width:120px;/*background:#F30;*/float:left; padding-bottom:10px;}
 	 
 	/* .side2{height:100px;}
@@ -35,6 +35,8 @@
 	 	   background-image: url("image/yinghua.png");
            background-repeat: no-repeat;
            background-position: center left ;
+           width:80px;
+           margin:0 auto;
 	 	}
      .sidenav li>a{display:block; text-indent:25px; height:40px; 
 	              line-height:40px; width:100px; margin-bottom:2px;}
@@ -152,7 +154,7 @@
             color: #737373;
             font-weight: normal;
         }
-     .sidesearch{width:100%;margin:10px 0px;}
+     .sidesearch{width:100%;margin:10px 0px;margin-top:60px;}
      .s-combobox-input{width:110px;margin:5px auto;}
      .s-combobox-button{margin:0px 0px 5px 48px;}
      .s-combobox-button:before{
@@ -210,3 +212,4 @@
 .f-link{float:right;height:50px;margin-top:2em;margin-right:3em;}
 .f-link img{float:left;height:50px;width:50px;display:block;margin:0px 2px 0px 4px;}
 #footer p{clear:both;width:100%;}
+
