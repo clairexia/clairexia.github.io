@@ -220,11 +220,12 @@
 @media screen and (max-width: 600px){
     #wrap{min-width: 300px;} 
     #mainbody{width:100%;min-width:300px;} 
-    #footer{min-width:300px;} 
-    .weixin,.mid-footer,.f-link{clear:both;} 
+    #footer{min-width:300px;}
+    .nav{margin:0;} 
+    .weixin,.mid-footer,.f-link{clear:both;position:static;} 
     .sidebar{width:100%;min-width:300px;float:left;}
     .sidesearch{clear: both;}
     .head,.music{clear:both;color:black;}
-    .content{margin:0;clear:both;width:100px;min-width:300px;}
+    .content{margin:0;clear:both;display:list-item;width:100%;min-width:300px;}
 
 }
