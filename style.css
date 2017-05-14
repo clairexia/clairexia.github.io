@@ -1,6 +1,6 @@
 
 	 *{margin:0;padding:0;font-size:14px;}
-     #wrap{width:100%;overflow:hidden;}
+     #wrap{width:100%;min-width:1214px;overflow:hidden;}
 	 #header{position:relative;height:60px;background:#000;color:#FFF;}
 	 a{color:#333;text-decoration:none}
 	.nav{list-style:none; height:60px;margin-left:100px;}
@@ -13,7 +13,7 @@
         .head{height:60px;line-height:60px;font-size:14px;padding-right:15px;position:absolute;right:10px;top:0px;}
         #show{float:left;margin-right:15px;color:blanchedalmond;}	 
         #login{cursor: pointer;}
-	#mainbody{width:80%;min-width:1214px;margin:20px auto;}
+	#mainbody{width:80%;min-width:1214px;margin:20px auto;overflow:hidden;}
          .music{float:right;width:300px;height:30px;overflow:hidden;
 		 transition:width 1s;
                  -moz-transition:width 1s; /* Firefox 4 */
@@ -209,16 +209,13 @@
 .f-link{float:right;height:50px;margin-top:2em;margin-right:3em;}
 .f-link img{float:left;height:50px;width:50px;display:block;margin:0px 2px 0px 4px;}
 #footer p{clear:both;width:100%;}
-@media screen and (min-width: 960px){
-    #wrap{min-width: 960px;} 
-    #mainbody{min-width:960px;} 
-    #footer{min-width:960px;} 
-}
+#footer{min-width:960px;} 
 @media screen and (min-width: 600px) and (max-width: 960px){
     #wrap{min-width: 600px;} 
-    #mainbody{min-width:1214px;} 
+    #mainbody{min-width:600px;} 
     #footer{min-width:600px;} 
     .tab{margin-left:0px;margin-right:0px;}
+    .head,.music{clear:both;}
 }
 @media screen and (max-width: 600px){
     #wrap{min-width: 600px;} 
@@ -227,5 +224,6 @@
     .weixin,.mid-footer,.f-link{clear:both;} 
     .sidebar{width:100%;min-width:300px;float:left;}
     .sidesearch{clear: both;}
-    
+    .head,.music{clear:both;}
+
 }
