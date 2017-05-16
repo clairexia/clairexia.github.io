@@ -10,7 +10,7 @@
 	.subNav{position:absolute; top:60px;width:110px; height:0; overflow:hidden}
 	.subNav li a{ background:#333;}
 	.subNav li a:hover{ background:#666;}
-        .head{height:60px;line-height:60px;font-size:14px;padding-right:15px;position:absolute;right:10px;top:0px;}
+        .head{min-width:960px;eight:60px;line-height:60px;font-size:14px;padding-right:15px;position:absolute;right:10px;top:0px;}
         #show{float:left;margin-right:15px;color:blanchedalmond;}	 
         #login{cursor: pointer;}
 	#mainbody{width:80%;min-width:1214px;margin:20px auto;overflow:hidden;}
@@ -215,7 +215,7 @@
     #mainbody{width:100%;min-width:600px;} 
     #footer{min-width:600px;} 
     .tab{margin-left:0px;margin-right:0px;}
-    .head{clear:both;float:none;background-color:black;}
+    .head,.music{clear:both;float:none;color:black;}
 }
 @media screen and (max-width: 600px){
     #wrap{min-width: 300px;} 
@@ -225,7 +225,7 @@
     .weixin,.mid-footer,.f-link{clear:both;position:static;float:none;} 
     .sidebar{width:100%;min-width:300px;float:left;}
     .sidesearch{clear: both;}
-    .head{clear:both;float:none;background-color:black;}
+    .head,.music{clear:both;float:none;color:black;}
     .content,.tab,.tab1,.tab2{margin:0;clear:both;float:none;width:100%;min-width:300px;}
 
 }
