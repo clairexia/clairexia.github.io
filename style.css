@@ -13,7 +13,7 @@
         .head{height:60px;line-height:60px;font-size:14px;padding-right:15px;position:absolute;right:10px;top:0px;}
         #show{float:left;margin-right:15px;color:blanchedalmond;}	 
         #login{cursor: pointer;}
-	#mainbody{width:80%;min-width:1214px;margin:20px auto;}
+	#mainbody{width:90%;min-width:1214px;margin:20px auto;}
          .music{float:right;width:300px;height:30px;overflow:hidden;
 		 transition:width 1s;
                  -moz-transition:width 1s; /* Firefox 4 */
@@ -21,7 +21,7 @@
                  -o-transition:width 1s; /* Opera */}
          .music:hover{width:507px;}
          .music marquee{color:grey;height:30px;width:200px;line-height:30px;}
-	 .showbox{border-top:1px solid #DDD;clear:both;height:380px;width:1215px;margin:10px auto;overflow:hidden;}
+	 .showbox{border-top:1px solid #DDD;clear:both;height:380px;width:100%;margin:10px auto;overflow:hidden;}
 	 .sidebar{margin-left: 10px; border:1px solid #DDD;width:120px;/*background:#F30;*/float:left; padding-bottom:10px;}
 	 
 	/* .side2{height:100px;}
