@@ -152,7 +152,7 @@
         }
      .sidesearch{width:100%;margin:40px 0px;}
      .side2{border-top:1px solid #ccc;margin-top: 10px;}
-     .side2 strong{margin-left:1em;}
+     .side2 strong{padding-top:1em 0 0 1em;}
       #scroll_list{width:110px;height:132px;margin:20px auto;overflow: hidden;}
       #scroll_list li{overflow: hidden;}
      #scroll_list li a{display: block;}
@@ -192,20 +192,14 @@
 	 	    height:40px;line-height:40px;
 	 	    
 	 	}
-	 .list1{float:left;margin:20px 0px;}
-	 .list1 .comic_list{width:940px;overflow:hidden;}
-	 .list1 .comic_list li{float:left;position:relative;width:208px;list-style: none;border:1px solid #DDD;margin:0px 15px 10px 10px;} 
-	 .list1 .comic_list .comic_name{position:absolute;top:10px;left:110px;font-size: 14px;height:18px;line-height:18px;overflow: hidden; }
-	 .list1 .comic_list span{position:absolute;top:35px;left:110px;color:#ccc;font-size: 12px;height:48px;line-height:16px;overflow: hidden; }
-     .list1 .comic_list li a:hover{color:red;text-decoration: underline;}
-     #scroll_list{width:110px;height:132px;margin-top:20px;overflow: hidden;}
-      #scroll_list li{overflow: hidden;}
-     #scroll_list li a{display: block;}
-     #scroll_list li a:hover{color:red;}
-     /*.list1 #scroll_list2{float:right;width:120px;height:20px;background-color: green;overflow: hidden;}*/
-     #scroll_list .rightlist li{height:16px;line-height:16px;margin:0 0 5px 0;list-style:;border-bottom: 1px dashed #DDD;}
+	 .list{float:left;margin:20px 0px;}
+	 .list .comic_list{width:940px;overflow:hidden;}
+	 .list .comic_list li{float:left;position:relative;width:208px;list-style: none;border:1px solid #DDD;margin:0px 15px 10px 10px;} 
+	 .list .comic_list .comic_name{position:absolute;top:10px;left:110px;font-size: 14px;height:18px;line-height:18px;overflow: hidden; }
+	 .list .comic_list span{position:absolute;top:35px;left:110px;color:#ccc;font-size: 12px;height:48px;line-height:16px;overflow: hidden; }
+     .list .comic_list li a:hover{color:red;text-decoration: underline;}
+     .content{background-color: #fff;}
      .tab .tab2{clear:both;}
-     .tab1,.tab2{background-color: #fff;}
      #footer{clear:both;position:relative;width:100%;min-height:70px;margin-top:10px;padding-bottom:9px;border-top:1px solid #CCC;
 		 text-align:center;font-size:12px;}
 .weixin{float:left;border:1px solid #ccc;height:80px;width:80px;margin-top:2em;margin-left:6em;
