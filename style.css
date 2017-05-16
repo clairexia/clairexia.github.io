@@ -1,9 +1,9 @@
 
 	 *{margin:0;padding:0;font-size:14px;}
      #wrap{min-width:1215px;background-color: #f3f3f3;}
-	 #header{position:relative;height:60px;background:#000;color:#FFF;}
+	 #header{position:relative;height:60px;background:#000;color:#FFF;padding:0 50px;}
 	 a{color:#333;text-decoration:none}
-	.nav{list-style:none; height:60px;margin-left:100px;}
+	.nav{list-style:none; height:60px;}
 	.nav li{float:left;position:relative;}
 	.nav li a{color:#FFF;display:block; height:60px;text-align:center; line-height:60px; width:80px; margin-left:1px;}
 	.nav li a:hover{background:#333;}
@@ -205,7 +205,7 @@
 .weixin{float:left;border:1px solid #ccc;height:80px;width:80px;margin-top:2em;margin-left:6em;
 	background-image:url("image/weixin.png");background-size:80px 80px;background-position:center;background-repeat:no-repeat;}
 #footer .mid-footer{float:left;width:50%;min-width:200pz;position:absolute;top:50px;left:25%;font-family:"隶书"；}
-.f-link{float:right;height:50px;margin-top:2em;margin-right:3em;}
+.f-link{float:right;height:50px;margin-top:2em;margin-right:3em;background-color: :#fff;}
 .f-link img{float:left;height:50px;width:50px;display:block;margin:0px 2px 0px 4px;}
 #footer p{clear:both;width:100%;}
 
