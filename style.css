@@ -205,6 +205,7 @@
      /*.list1 #scroll_list2{float:right;width:120px;height:20px;background-color: green;overflow: hidden;}*/
      #scroll_list .rightlist li{height:16px;line-height:16px;margin:0 0 5px 0;list-style:;border-bottom: 1px dashed #DDD;}
      .tab .tab2{clear:both;}
+     .tab1,.tab2{background-color: #fff;}
      #footer{clear:both;position:relative;width:100%;min-height:70px;margin-top:10px;padding-bottom:9px;border-top:1px solid #CCC;
 		 text-align:center;font-size:12px;}
 .weixin{float:left;border:1px solid #ccc;height:80px;width:80px;margin-top:2em;margin-left:6em;
