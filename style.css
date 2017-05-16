@@ -192,13 +192,13 @@
 	 	    height:40px;line-height:40px;
 	 	    
 	 	}
-	 .list{float:left;margin:20px 0px;}
+	 .list{float:left;margin:20px 0px;background-color: :#fff;}
 	 .list .comic_list{width:940px;overflow:hidden;}
 	 .list .comic_list li{float:left;position:relative;width:208px;list-style: none;border:1px solid #DDD;margin:0px 15px 10px 10px;} 
 	 .list .comic_list .comic_name{position:absolute;top:10px;left:110px;font-size: 14px;height:18px;line-height:18px;overflow: hidden; }
 	 .list .comic_list span{position:absolute;top:35px;left:110px;color:#ccc;font-size: 12px;height:48px;line-height:16px;overflow: hidden; }
      .list .comic_list li a:hover{color:red;text-decoration: underline;}
-     .content{background-color: #fff;}
+   
      .tab .tab2{clear:both;}
      #footer{clear:both;position:relative;width:100%;min-height:70px;margin-top:10px;padding-bottom:9px;border-top:1px solid #CCC;
 		 text-align:center;font-size:12px;}
