@@ -223,7 +223,7 @@
     #footer{min-width:300px;}
     .nav{margin:0;} 
     .weixin,.mid-footer,.f-link{clear:both;position:static;float:none;} 
-    .sidebar{clear:both;width:100%;min-width:300px;float:left;}
+    .sidebar{width:100%;min-width:300px;float:left;}
     .sidesearch{clear: both;}
     .head{clear:both;float:none;background-color:black;}
     .content,.tab,.tab1,.tab2{margin:0;clear:both;float:none;width:100%;min-width:300px;}
