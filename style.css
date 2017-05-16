@@ -23,10 +23,6 @@
          .music marquee{color:grey;height:30px;width:200px;line-height:30px;}
 	 .showbox{border-top:1px solid #DDD;clear:both;height:380px;width:100%;margin:10px auto;overflow:hidden;}
 	 .sidebar{margin-left: 10px; border:1px solid #DDD;width:120px;/*background:#F30;*/float:left; padding-bottom:10px;}
-	 
-	 .side2{border-top:1px solid #ccc;margin-top: 10px;}
-	 /*.side3{height:100px;}
-	 .side4{height:100px;}*/
 
 	 .sideh1{ background-image: url("image/波浪线1.png");background-repeat: no-repeat;background-position: center ;
            text-align:center;height:30px;line-height:30px;margin:10px 0px;/*border-bottom:1px solid #80FFFF;margin-top:20px;*/}
@@ -154,7 +150,15 @@
             color: #737373;
             font-weight: normal;
         }
-     .sidesearch{width:100%;margin:10px 0px;margin-top:60px;}
+     .sidesearch{width:100%;margin:40px 0px;}
+     .side2{border-top:1px solid #ccc;margin-top: 10px;}
+     .side2 h1{text-align: center;}
+      #scroll_list{width:110px;height:132px;margin:20px auto;overflow: hidden;}
+      #scroll_list li{overflow: hidden;}
+     #scroll_list li a{display: block;}
+     #scroll_list li a:hover{color:red;}
+     /*.list1 #scroll_list2{float:right;width:120px;height:20px;background-color: green;overflow: hidden;}*/
+     #scroll_list .rightlist li{height:16px;line-height:16px;margin:0 0 5px 0;list-style:;border-bottom: 1px dashed #DDD;}
      .s-combobox-input{width:110px;margin:5px auto;}
      .s-combobox-button{margin:0px 0px 5px 48px;}
      .s-combobox-button:before{
