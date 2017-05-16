@@ -192,7 +192,7 @@
 	 	    height:40px;line-height:40px;
 	 	    
 	 	}
-	 .list{float:left;margin:20px 0px;background-color: :#fff;}
+	 .list{float:left;margin:20px 0px;background-color:#fff;}
 	 .list .comic_list{width:940px;overflow:hidden;}
 	 .list .comic_list li{float:left;position:relative;width:208px;list-style: none;border:1px solid #DDD;margin:0px 15px 10px 10px;} 
 	 .list .comic_list .comic_name{position:absolute;top:10px;left:110px;font-size: 14px;height:18px;line-height:18px;overflow: hidden; }
