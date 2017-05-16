@@ -24,8 +24,8 @@
 	 .showbox{border-top:1px solid #DDD;clear:both;height:380px;width:100%;margin:10px auto;overflow:hidden;}
 	 .sidebar{margin-left: 10px; border:1px solid #DDD;width:120px;/*background:#F30;*/float:left; padding-bottom:10px;}
 	 
-	/* .side2{height:100px;}
-	 .side3{height:100px;}
+	 .side2{border-top:1px solid #ccc;margin-top: 10px;}
+	 /*.side3{height:100px;}
 	 .side4{height:100px;}*/
 
 	 .sideh1{ background-image: url("image/波浪线1.png");background-repeat: no-repeat;background-position: center ;
