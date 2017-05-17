@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="style.css"  />
   <script src="script.js"></script>  
   <script src="getclassname.js"></script>
-  <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> 
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" > 
 </head>
 
 <body>
@@ -71,12 +71,12 @@
           </div>  
           <div id="mainbody">    
               <div class="showbox">
-                 <div id="myCarousel" class="carousel slide">
+                 <div id="slidershow" class="carousel slide">
                  <!-- 轮播（Carousel）指标 -->
                  <ol class="carousel-indicators">
-                   <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                   <li data-target="#myCarousel" data-slide-to="1"></li>
-                   <li data-target="#myCarousel" data-slide-to="2"></li>
+                   <li data-target="#slidershow" data-slide-to="0" class="active"></li>
+                   <li data-target="#slidershow" data-slide-to="1"></li>
+                   <li data-target="#slidershow" data-slide-to="2"></li>
                  </ol>   
                  <!-- 轮播（Carousel）项目 -->
                  <div class="carousel-inner">
@@ -91,10 +91,8 @@
                  </div>
                  </div>
                  <!-- 轮播（Carousel）导航 -->
-                 <a class="carousel-control left" href="#myCarousel" 
-     data-slide="prev">&lsaquo;</a>
-                 <a class="carousel-control right" href="#myCarousel" 
-     data-slide="next">&rsaquo;</a>
+                 <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+                 <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
               </div> 
           </div>
           <div class="sidebar">
@@ -390,5 +388,18 @@
 	    </div>
     </div> 
     <script src="roll.js"></script>
+    <script>
+        $(function(){
+    $("#slidershow").carousel({
+        interval:2000
+    });
+    $("#slidershow a.left").click(function(){
+        $(".carousel").carousel("prev");
+    });
+    $("#slidershow a.right").click(function(){
+        $(".carousel").carousel("next");
+    });
+});
+    </script>
 </body>
 </html>
