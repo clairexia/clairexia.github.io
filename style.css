@@ -3,10 +3,10 @@
      #wrap{min-width:1215px;background-color: #f3f3f3;}
 	 #header{position:relative;height:60px;background:#000;color:#FFF;padding:0 50px;}
 	 a{color:#333;text-decoration:none}
-	.nav{list-style:none; height:60px;}
-	.nav li{float:left;position:relative;}
-	.nav li a{color:#FFF;display:block; height:60px;text-align:center; line-height:60px; width:80px; margin-left:1px;}
-	.nav li a:hover{background:#333;}
+	.mynav{list-style:none; height:60px;}
+	.mynav li{float:left;position:relative;}
+	.mynav li a{color:#FFF;display:block; height:60px;text-align:center; line-height:60px; width:80px; margin-left:1px;}
+	.mynav li a:hover{background:#333;}
 	.subNav{position:absolute; top:60px;width:110px; height:0; overflow:hidden}
 	.subNav li a{ background:#333;}
 	.subNav li a:hover{ background:#666;}
