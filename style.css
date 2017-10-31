@@ -25,7 +25,7 @@
 	 .showbox{border-top:1px solid #DDD;clear:both;height:380px;width:100%;margin:10px auto;overflow:hidden;}
      #slidershow{height:300px;overflow:hidden;}
      #slidershow img{margin:0 auto;}
-	 .sidebar{width:15%; border:1px solid #ccc;background-color:#FFF;float:left; padding-bottom:10px;text-align: :center;}
+	 .sidebar{width:15%; border:1px solid #ccc;background-color:#FFF;float:left; padding-bottom:10px;text-align: center;}
 
 	 .side1.t1{ background-image: url("image/波浪线1.png");background-repeat: no-repeat;background-position: center ;
            text-align:center;height:30px;line-height:30px;margin:10px 0px;height:30px;line-height: 30px;font-size: bold;}
