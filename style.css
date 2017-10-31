@@ -25,11 +25,11 @@
 	 .showbox{border-top:1px solid #DDD;clear:both;height:380px;width:100%;margin:10px auto;overflow:hidden;}
      #slidershow{height:300px;overflow:hidden;}
      #slidershow img{margin:0 auto;}
-	 .sidebar{width:15%; border:1px solid #ccc;background-color:#FFF;float:left; padding-bottom:10px;}
+	 .sidebar{width:15%; border:1px solid #ccc;background-color:#FFF;float:left; padding-bottom:10px;text-align: :center;}
 
-	 .side1 strong{ background-image: url("image/波浪线1.png");background-repeat: no-repeat;background-position: center ;
-           text-align:center;height:30px;line-height:30px;margin:10px 0px;/*border-bottom:1px solid #80FFFF;margin-top:20px;*/}
-	 .sidenav{list-style:none;margin-top:10px;border-top: 1px solid #DDD;}
+	 .side1.t1{ background-image: url("image/波浪线1.png");background-repeat: no-repeat;background-position: center ;
+           text-align:center;height:30px;line-height:30px;margin:10px 0px;height:30px;line-height: 30px;font-size: bold;}
+	 .sidenav{list-style:none;margin-top:10px;border-top: 1px dotted #ccc;}
 	 .sidenav li{
 	 	   background-image: url("image/yinghua.png");
            background-repeat: no-repeat;
@@ -153,8 +153,8 @@
             color: #737373;
             font-weight: normal;
         }
-     .sidesearch{width:100%;margin:40px 0px;}
-     .side2{border-top:1px solid #ccc;margin-top: 10px;}
+     .sidesearch{width:100%;margin:40px 0px;padding:10px;border-top: 1px solid #ccc; position: relative;}
+     .side2{border-top:1px solid #ccc;margin-top: 10px;padding:10px;}
      .side2 strong{padding-top:1em 0 0 1em;}
       #scroll_list{width:110px;height:132px;margin:20px auto;overflow: hidden;}
       #scroll_list li{overflow: hidden;}
@@ -162,8 +162,8 @@
      #scroll_list li a:hover{color:red;}
      /*.list1 #scroll_list2{float:right;width:120px;height:20px;background-color: green;overflow: hidden;}*/
      #scroll_list .rightlist li{height:16px;line-height:16px;margin:0 0 5px 0;list-style:;border-bottom: 1px dashed #DDD;}
-     .s-combobox-input{width:110px;margin:5px auto;}
-     .s-combobox-button{margin:0px 0px 5px 48px;}
+     .s-combobox-input{width:90%;float: left;height:30px;line-height: 30px;}
+     .s-combobox-button{position:absolute;right:5px;height:30px;width:30px;}
      .s-combobox-button:before{
          content: "\f002";
          font-family: FontAwesome;
