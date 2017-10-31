@@ -29,12 +29,11 @@
 
 	 .side1 .t1{ background-image: url("image/波浪线1.png");background-repeat: no-repeat;background-position: center ;
            text-align:center;height:30px;line-height:30px;margin:10px 0px;height:30px;line-height: 30px;font-size: bold;}
-	 .sidenav{list-style:none;margin-top:10px;border-top: 1px dotted #ccc;}
+	 .sidenav{list-style:none;margin-top:10px;border-top: 1px dotted #ccc;position: relative;}
 	 .sidenav li{
 	 	   background-image: url("image/yinghua.png");
            background-repeat: no-repeat;
            background-position: center left ;
-           width:80px;
            margin:0 auto;
 	 	}
      .sidenav li>a{display:block; text-indent:25px; height:40px; 
@@ -45,8 +44,8 @@
             display:none;
             width: 715px;
             position: absolute;
-            left: 180px;
-            top: 480px;
+            right: -715px;
+            top: 0px;
             border: 1px solid #DDD;
             z-index: 4;
             background: white;
