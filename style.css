@@ -29,7 +29,7 @@
 
 	 .side1 .t1{ background-image: url("image/波浪线1.png");background-repeat: no-repeat;background-position: center ;
            text-align:center;height:30px;line-height:30px;margin:10px 0px;height:30px;line-height: 30px;font-size: bold;}
-	 .sidenav{list-style:none;margin-top:10px;border-top: 1px dotted #ccc;position: relative;}
+	 .sidenav{list-style:none;margin-top:10px;border-top: 1px dotted #ccc; position: relative;}
 	 .sidenav li{
 	 	   background-image: url("image/yinghua.png");
            background-repeat: no-repeat;
@@ -45,7 +45,7 @@
             width: 715px;
             position: absolute;
             right: -715px;
-            top: 0px;
+            top:0px;
             border: 1px solid #DDD;
             z-index: 4;
             background: white;
@@ -205,6 +205,8 @@
      .right{ width:15%; }
      #footer{clear:both;position:relative;width:100%;min-height:70px;margin-top:10px;padding-bottom:9px;border-top:1px solid #CCC;
 		 text-align:center;font-size:12px;}
+     .f1{height:160px;}  
+     .f2{clear: both;padding-top: 10px;border-top: 1px solid #ddd;}  
     .weixin{float:left;border:1px solid #ccc;height:80px;width:80px;margin-top:2em;margin-left:6em;
 	background-image:url("image/weixin.png");background-size:80px 80px;background-position:center;background-repeat:no-repeat;}
     #footer .mid-footer{float:left;width:50%;min-width:200pz;position:absolute;top:50px;left:25%;font-family:"隶书"；}
