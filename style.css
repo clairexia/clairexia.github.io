@@ -25,7 +25,7 @@
 	 .showbox{border-top:1px solid #DDD;clear:both;height:380px;width:100%;margin:10px auto;overflow:hidden;}
      #slidershow{height:300px;overflow:hidden;}
      #slidershow img{margin:0 auto;}
-	 .sidebar{margin-left: 10px; border:1px solid #DDD;width:120px;background-color:#FFF;float:left; padding-bottom:10px;}
+	 .sidebar{width:15%; border:1px solid #ccc;background-color:#FFF;float:left; padding-bottom:10px;}
 
 	 .side1 strong{ background-image: url("image/波浪线1.png");background-repeat: no-repeat;background-position: center ;
            text-align:center;height:30px;line-height:30px;margin:10px 0px;/*border-bottom:1px solid #80FFFF;margin-top:20px;*/}
@@ -170,7 +170,7 @@
          color:darkblue;
          font-size: 20px;
          font-weight: bold;}
-	 .content{/*height:400px;*//*background:red;*/margin-left:150px;overflow:hidden;}
+	 .content{width:70%;overflow:hidden;}
 	 
      #login_box{width:350px;height:175px;background:#eee;
 		 border:1px solid #ccc;position:absolute;left:50%;top:50%;z-index: 1;
@@ -189,20 +189,21 @@
 	 #submit{margin-right:10px;}
      #reset{margin-left:10px;}
 	 
-	 .tab{margin-left: 10px;}
+	 .tab{padding-left: 25px;}
 	 .tab .title{
 	 	    border-bottom:4px solid black;
 	 	    height:40px;line-height:40px;
 	 	    
 	 	}
-	 .list{float:left;margin:20px 0px;background-color:#fff;}
-	 .list .comic_list{width:940px;overflow:hidden;}
-	 .list .comic_list li{float:left;position:relative;width:208px;list-style: none;border:1px solid #DDD;margin:0px 15px 10px 10px;} 
+	 .list{margin:20px 0px;}
+	 .list .comic_list{overflow:hidden;}
+	 .list .comic_list li{float:left;position:relative;width:22%;list-style: none;background-color: #fff;margin:0px 2% 10px 1%;} 
 	 .list .comic_list .comic_name{position:absolute;top:10px;left:110px;font-size: 14px;height:18px;line-height:18px;overflow: hidden; }
 	 .list .comic_list span{position:absolute;top:35px;left:110px;color:#ccc;font-size: 12px;height:48px;line-height:16px;overflow: hidden; }
      .list .comic_list li a:hover{color:red;text-decoration: underline;}
    
      .tab .tab2{clear:both;}
+     .right{ width:15%; }
      #footer{clear:both;position:relative;width:100%;min-height:70px;margin-top:10px;padding-bottom:9px;border-top:1px solid #CCC;
 		 text-align:center;font-size:12px;}
     .weixin{float:left;border:1px solid #ccc;height:80px;width:80px;margin-top:2em;margin-left:6em;
