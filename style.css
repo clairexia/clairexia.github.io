@@ -23,8 +23,8 @@
          .music:hover{width:507px;}
          .music marquee{color:grey;height:30px;width:200px;line-height:30px;}
 	 .showbox{border-top:1px solid #DDD;clear:both;height:380px;width:100%;margin:10px auto;overflow:hidden;}
-     .carousel-inner.item img{margin:0 auto}
-     .slideshow{height:300px;overflow:hidden;}
+     #slidershow{height:300px;overflow:hidden;}
+     #slidershow img{margin:0 auto;}
 	 .sidebar{margin-left: 10px; border:1px solid #DDD;width:120px;background-color:#FFF;float:left; padding-bottom:10px;}
 
 	 .side1 strong{ background-image: url("image/波浪线1.png");background-repeat: no-repeat;background-position: center ;
